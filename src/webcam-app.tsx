@@ -1,5 +1,7 @@
+import Webcam from "./components/global/webcam";
+
 const App = () => {
-  return <h1 className="draggable">webcam component</h1>;
+  return <Webcam />;
 };
 
 export default App;
