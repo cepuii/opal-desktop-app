@@ -62,6 +62,7 @@ const StudioTray = () => {
       }
     }, 1);
     return () => clearInterval(recordTimeInterval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [recording]);
 
   if (!onSources) {

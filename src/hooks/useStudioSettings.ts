@@ -45,6 +45,7 @@ export const useStudioSettings = (
         plan,
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [screen, audio]);
 
   useEffect(() => {
@@ -67,6 +68,7 @@ export const useStudioSettings = (
     });
 
     return () => subscribe.unsubscribe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [watch]);
 
   return { register, isPending, onPreset };
