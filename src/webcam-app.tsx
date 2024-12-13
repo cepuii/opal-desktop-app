@@ -1,5 +1,5 @@
 const App = () => {
-  return <h1>webcam component</h1>;
+  return <h1 className="draggable">webcam component</h1>;
 };
 
 export default App;

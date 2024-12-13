@@ -1,6 +1,7 @@
+import StudioTray from "./components/studio/studio-tray";
+
 const App = () => {
-  return <h1>Studio component</h1>;
+  return <StudioTray />;
 };
 
 export default App;
-//TODO 12:48:18 / 16:53:09
