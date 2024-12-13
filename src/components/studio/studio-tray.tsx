@@ -30,7 +30,7 @@ const StudioTray = () => {
   const clearTime = () => {
     setCount(0);
   };
-
+  // WIP: add resize behavior
   //useEffect(() => {
   //  resizeWindow(preview);
   //  return () => resizeWindow(preview);
