@@ -79,7 +79,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground text-black;
+    @apply bg-transparent text-foreground overflow-hidden text-black;
   }
 }
 

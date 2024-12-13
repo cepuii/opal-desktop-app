@@ -35,7 +35,6 @@ export const useStudioSettings = (
     },
   });
 
-  //WIP: add useEffect for watch mutate
   useEffect(() => {
     if (screen && audio && preset) {
       window.ipcRenderer.send("media-sources", {

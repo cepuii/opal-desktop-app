@@ -12,7 +12,6 @@ function App() {
       <ControlLayout>
         <AuthButton />
         <Widget />
-        Main page
       </ControlLayout>
       <Toaster />
     </QueryClientProvider>

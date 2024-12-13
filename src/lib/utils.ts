@@ -32,7 +32,6 @@ export const getMediaResources = async () => {
     (device) => device.kind === "audioinput"
   );
 
-  console.log("getting sources");
   return { displays, audio: audioInputs };
 };
 

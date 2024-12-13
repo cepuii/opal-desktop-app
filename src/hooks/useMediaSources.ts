@@ -24,7 +24,7 @@ type DisplayDeviceProps = {
   payload: SourceDevicesStateProps;
 };
 
-export const useMediaSources = async () => {
+export const useMediaSources = () => {
   const [state, action] = useReducer(
     (state: SourceDevicesStateProps, action: DisplayDeviceProps) => {
       switch (action.type) {
